@@ -15,3 +15,18 @@
         }
     }
 }
+
+@media(min-width: 1114px) {
+    .section_articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 80px;
+        max-width: 1000px;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+        .article_item {
+            padding-top: 50px;
+        }
+    }
+}

@@ -13,3 +13,15 @@
         }
     }
 }
+
+@media(min-width: 1114px) {
+    .header_main__container {
+        text-align: center;
+        padding-bottom: 40px;
+        .illustration_image__container,
+        .header_main__textContainer {
+            width: 500px;
+            margin: auto;
+        }
+    }
+}
