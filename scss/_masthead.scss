@@ -1,0 +1,15 @@
+@import './variables';
+.header_main__container {
+    padding-bottom: 80px;
+    .illustration_image {
+        width: 100%;
+    }
+    .header_main__textContainer {
+        text-align: center;
+        padding-top: 20px;
+        p,
+        h2 {
+            color: hsl(0, 0%, 100%);
+        }
+    }
+}

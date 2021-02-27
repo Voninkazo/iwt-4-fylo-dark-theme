@@ -1,0 +1,33 @@
+@import './variables';
+.section_reports {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    // text-align: center;
+    .report_container {
+        background-color: hsl(219, 30%, 18%);
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 30px;
+        .profile_image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .report_pragraph {
+            color: $main-text-color;
+        }
+        a {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            .profile_name {
+                color: $main-text-color;
+                margin: 0;
+            }
+            .profile_carrer {
+                color: $main-text-color;
+            }
+        }
+    }
+}

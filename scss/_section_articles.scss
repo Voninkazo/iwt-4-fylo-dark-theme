@@ -1,0 +1,17 @@
+@import './variables';
+.section_articles {
+    padding-bottom: 80px;
+    .article_item {
+        text-align: center;
+        padding-top: 100px;
+        .article_title {
+            color: $main-text-color;
+        }
+        .article_paragraph {
+            color: $main-text-color;
+        }
+        .article_item__image {
+            padding-bottom: 20px;
+        }
+    }
+}
