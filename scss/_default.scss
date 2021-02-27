@@ -1,5 +1,22 @@
-html {}
+@import './variables';
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 body {
     background-color: hsl(218, 28%, 13%);
+    margin: 0;
+}
+
+ul {
+    @include reset-list;
+}
+
+a {
+    @include reset-anchor;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
 }
